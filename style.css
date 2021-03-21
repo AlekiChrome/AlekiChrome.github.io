@@ -121,6 +121,44 @@ body {
     }
 
  @media (min-width: 600px) {
-
  }
 /* End of Mobile Nav */
+
+/* Intro */
+
+.intro h1 {
+    color: rgb(255,191,2);
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'vonique92', serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+.intro h2 {
+    font-size: 2em;
+    font-family: 'vonique64', serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(216, 205, 194);
+    padding-bottom: 15em;
+}
+/* End of Intro Section */
+
+@media only screen and (max-width: 768px) {
+    /* For smaller screens */
+
+    /* mobile Intro */
+    .intro h1 {
+        font-size: 1.6rem;
+    }
+
+    .intro h2 {
+        font-size: 1.4rem;
+    }
+
+
+  }
