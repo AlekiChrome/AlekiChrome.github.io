@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* beginning of navigation styling */
+/* .header-nav .container {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+} */
+
+
+.header-nav li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.header-nav li a {
+    color: rgb(255,191,2);
+    text-decoration: overline;
+    font-weight: bold;
+    font-family: 'vonique64', serif;
+}
+
+.nav-toggle {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
+
+.open {
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.header-nav li a:hover {
+    color: rgb(216, 205, 194);
+    font-family: 'vonique92', serif;
+    display: inline;
+    text-decoration: none;
+    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #30e8bf, #ff8235);
+    background-repeat: no-repeat;
+    background-position: 120%, 122%, 0 130%;
+    background-size: 100% 10px;
+}
+
+.container #ca {
+    width: 5em;
+}
+
+.container #ca:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header-nav ul {
+    padding: 0;
+}
+
+/* End of Navigation styling */
+
