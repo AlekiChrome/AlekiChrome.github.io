@@ -16,6 +16,50 @@ body {
     cursor: 'new kursor';
 }
 
+/* Splash screen and  animation */
+
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 200;
+}
+
+.splash img {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 150px;
+}
+
+.splash.disappear {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: -10;
+    transition: all 0.7s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.appear {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+/* End of splash screen
+
 /* beginning of navigation styling */
 
 .header-nav li {
@@ -148,6 +192,191 @@ body {
 }
 /* End of Intro Section */
 
+ /* About Me */
+ .about {
+    display: grid;
+    grid-column-start: 2;
+    height: 100vh;
+    grid-template-columns: repeat(28, 80px);
+    grid-template-rows: repeat(10, 100px);
+
+}
+
+.about h1 {
+    font-family: 'vonique64', serif;
+    font-size: 1em;
+    color: white;
+}
+
+.about h2 {
+    font-family: 'vonique64', serif;
+    font-size: 5em;
+    color: white;
+}
+
+
+.about a {
+    color:  rgb(255,191,2);
+}
+
+.about p {
+    grid-row-start: 3;
+    grid-column: 13/18;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color:rgb(220, 220, 220);
+}
+
+.about img {
+    border-radius: 10px;
+    margin: 10px;
+    width: 800px;
+}
+
+.about .prof-pic:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+.box1 {
+    grid-row-start: 1;
+    grid-column: 3/6;
+}
+
+.box2 {
+    grid-row-start: 9;
+    grid-column-start: 5;
+    margin-left: 5px;
+    font-size: 5rem;
+    padding-left: 50px;
+    transition: color 650ms;
+}
+
+.box3 {
+    grid-row-start: 9;
+    grid-column-start: 7;
+    margin-left: 5px;
+    font-size: 5rem;
+    padding-left: 50px;
+    transition: color 650ms;
+}
+
+.box4 {
+    grid-row-start: 9;
+    grid-column-start: 9;
+    margin-left: 5px;
+    font-size: 5rem;
+    padding-left: 50px;
+    transition: color 650ms;
+}
+
+.box5 {
+    grid-row-start: 9;
+    grid-column-start: 11;
+    margin-left: 5px;
+    font-size: 5rem;
+    padding-left: 50px;
+    transition: color 650ms;
+}
+
+.box6 {
+    grid-column-start: 13;
+    grid-row-start: 9;
+    margin-left: 5px;
+    font-size: 5rem;
+    padding-left: 50px;
+    transition: color 650ms;
+}
+
+.box7 {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    margin-left: 5px;
+    font-size: 5rem;
+    padding-left: 50px;
+    transition: color 650ms;
+}
+
+.box8 {
+    grid-row-start: 2;
+    grid-column-start: 10;
+    z-index: 1;
+}
+
+.box9 {
+    grid-row-start: -6;
+    grid-column: 11/13;
+    z-index: 1;
+}
+
+.social-media i {
+    font-size: 5rem;
+    padding-left: 50px;
+    transition: color 650ms;
+}
+
+.fa-apple:hover {
+    color: #ACB5BD;
+}
+
+.fa-instagram:hover {
+    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%);
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-500px:hover {
+    color: black;
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+.fa-twitch:hover {
+    color: rgb(145,71,255);
+}
+
+.fa-twitter:hover {
+    color: #1BA1F0;
+}
+
+.hidden-mobile {
+    display: none;
+}
+
+/* End of About Me */
+
+
+
 @media only screen and (max-width: 768px) {
     /* For smaller screens */
 
@@ -160,5 +389,30 @@ body {
         font-size: 1.4rem;
     }
 
+    .about {
+        display: none;
+    }
 
+    .hidden-mobile {
+        display: block;
+    }
+
+    .hidden-mobile .about-mobile .mobile-header h1 {
+        font-family: 'vonique64', serif;
+        text-align: center;
+        color: white;
+    }
+
+    .hidden-mobile .about-mobile .mobile-header p {
+        padding: 5px 5px;
+        color: white;
+    }
+
+    @media screen and (orientation: portrait)  {
+    .hidden-mobile .about-mobile .mobile-header img {
+        width: 100%;
+        padding-right: 15%;
+        margin-left: 20px;
+    }
   }
+}

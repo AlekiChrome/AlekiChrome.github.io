@@ -1,9 +1,16 @@
+const splash = document.querySelector('.splash');
 const navToggle = document.querySelector('#navToggle');
 const nav = document.querySelector('nav');
 const navIcon = document.querySelectorAll('.navIcon');
 const hamburger = document.querySelector('#hamburger');
 
 document.addEventListener('DOMContentLoaded', () => {
+
+// splash screen
+setTimeout(() => {
+    splash.classList.add('disappear')
+}, 3500);
+
     // hamburger
 navToggle.addEventListener("click", () => {
     nav.classList.toggle('open');
