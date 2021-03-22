@@ -604,6 +604,16 @@ abbr {
 
  /* !End of Cards */
 
+ /* !Design Section */
+
+#designheader {
+    font-family: 'vonique64', serif;
+    text-align: center;
+    color: white;
+}
+
+ /* !End of Design Section */
+
  /* !Contact Section */
  #contactHeader {
     font-family: 'vonique64', serif;
@@ -857,6 +867,10 @@ abbr {
     }
 
     #skillsheader {
+        font-size: 1.6rem;
+    }
+
+    #designheader {
         font-size: 1.6rem;
     }
 
