@@ -822,7 +822,56 @@ abbr {
     display: none;
 }
 
- /* End of Contact Section */
+ /* !End of Contact Section */
+
+ /* !Footer Section  */
+
+ .copyright {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 192, 2, 0.471);
+    padding: 2rem 0;
+    color: white;
+    position: relative;
+}
+
+.up {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    top: -2.5rem;
+    right: 5rem;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+.up i {
+    color: #30e8bf;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.copyright p {
+    font-size: 1.4rem;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #ff8235;
+        0.99);
+    }
+    70%{
+        box-shadow: 0 0 0 2rem rgba(255, 171, 44, 0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255, 171, 44, 0);
+    }
+}
+
+ /* !End of Footer Section  */
 
 
 @media only screen and (max-width: 768px) {
@@ -926,7 +975,7 @@ abbr {
     }
 
     .contact-form-btn {
-        float: right;
+        float: left;
         border: 0;
         background: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #30e8bf, #ff8235);
         padding: 12px 50px;
@@ -948,6 +997,42 @@ abbr {
     }
 
     /* End of Mobile splash screen */
+
+    /* !mobile footer */
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255, 192, 2, 0.471);
+        padding: 10px;
+        color: white;
+        position: relative;
+    }
+
+    .up {
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-color: white;
+        top: -1.5rem;
+        right: 5rem;
+        border-radius: 100%;
+        display: flex;
+        animation: pulse 2s infinite;
+        cursor: pointer;
+    }
+
+    .up i {
+        color: #30e8bf;
+        font-size: 2rem;
+        margin: auto;
+    }
+
+    .copyright p {
+        font-size: 15px;
+    }
+
+    /* !End of mobile footer */
 
 
     @media screen and (orientation: portrait)  {
