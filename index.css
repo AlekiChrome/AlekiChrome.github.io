@@ -13,6 +13,7 @@ body {
     background: url("images/Brown-background.jpeg") no-repeat center fixed;
     background-size: cover;
     min-height:100vh;
+    font-family: 'Jost', sans-serif;
     cursor: 'new kursor';
 }
 
@@ -807,6 +808,10 @@ abbr {
     color: rgb(99, 68, 47);
 }
 
+.contact-section {
+    display: none;
+}
+
  /* End of Contact Section */
 
 
@@ -866,6 +871,55 @@ abbr {
     #contactHeader {
         font-size: 1.5rem;
     }
+
+    /* Mobile contact section  */
+
+    .contact-section {
+        display: block;
+        background: url(images/yelly.jpeg) no-repeat center;
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+
+    .contact-form-text {
+        font-family: 'Jost', sans-serif;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 16px 0;
+        border: 0;
+        background: rgb(228, 216, 216);
+        padding: 20px 40px;
+        outline: none;
+        color: black;
+        transition: 0.5s;
+    }
+
+    .contact-form-text:focus {
+        box-shadow: 0 0 10px 4px #ff8235;
+    }
+
+    textarea.contact-form-text {
+        resize: none;
+        height: 120px;
+    }
+
+    .contact-form-btn {
+        float: right;
+        border: 0;
+        background: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #30e8bf, #ff8235);
+        padding: 12px 50px;
+        border-radius:20px;
+    }
+
+    /* End of Mobile contact section  */
 
     @media screen and (orientation: portrait)  {
     .hidden-mobile .about-mobile .mobile-header img {
