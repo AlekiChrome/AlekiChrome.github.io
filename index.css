@@ -921,6 +921,21 @@ abbr {
 
     /* End of Mobile contact section  */
 
+    /* Mobile splash screen */
+
+    .splash img {
+        background-color: black;
+        width: 400px;
+        margin-left: 15px;
+        margin-right: auto;
+        display: block;
+        padding-right: 70px;
+        padding-top: 150px;
+    }
+
+    /* End of Mobile splash screen */
+
+
     @media screen and (orientation: portrait)  {
     .hidden-mobile .about-mobile .mobile-header img {
         width: 100%;
