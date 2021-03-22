@@ -13,7 +13,7 @@ body {
     background: url("images/Brown-background.jpeg") no-repeat center fixed;
     background-size: cover;
     min-height:100vh;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost', 'Audiowide', cursive;
     cursor: 'new kursor';
 }
 
