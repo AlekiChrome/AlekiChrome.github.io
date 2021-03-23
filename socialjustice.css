@@ -1,0 +1,152 @@
+body {
+    background-color:black;
+}
+
+#tag-your-it {
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#h1-sj {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+#a-head {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(212, 84, 45);
+    font-size: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+#btn {
+    padding-left: 20px;
+    border: 1px solid white;
+    width: 40px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#btn:hover {
+    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #30e8bf, #ff8235);
+}
+
+#intro-title h1 {
+    font-family: 'Zeyada', cursive;
+    color: rgb(197, 197, 197);
+    margin: 1em;
+    font-size: 45px;
+    text-decoration: overline;
+}
+
+#knee img {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#protest img{
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 300px;
+    max-height: 300px
+}
+
+#protest-one img {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#symbols img {
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#symbols p {
+    color: white;
+    margin-left: 100px
+}
+
+#bloom img {
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#bloom p {
+    color: white;
+    margin-left: 100px
+}
+
+#paint-one img {
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#paint-one p {
+    color: white;;
+    margin-left: 200px
+}
+
+#paint-two img {
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#paint-two p {
+    color: white;
+    margin-left: 140px;
+}
+
+#pro-signs img{
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#pro-signs p {
+    color: white;
+    margin-left: 130px;
+}
+
+
+#vend img{
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 300px;
+    max-height: 300px
+}
+
+#smoothe-process img{
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 300px;
+    max-height: 300px
+}
