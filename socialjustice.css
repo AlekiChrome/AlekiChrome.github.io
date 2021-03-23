@@ -12,6 +12,12 @@ body {
     text-align: center;
 }
 
+#message {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
 p {
     text-align: center;
     color: white;
