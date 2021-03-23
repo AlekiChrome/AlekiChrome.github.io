@@ -89,6 +89,11 @@ li {
     max-height: 500px
 }
 
+#symbols img:hover {
+    max-width: 600px;
+    max-height: 600px;
+}
+
 #symbols p {
     color: white;
     margin-left: 100px
@@ -99,6 +104,11 @@ li {
     margin-right: 10px;
     max-width: 500px;
     max-height: 500px
+}
+
+#bloom img:hover {
+    max-width: 600px;
+    max-height: 600px
 }
 
 #bloom p {
@@ -113,6 +123,11 @@ li {
     max-height: 500px
 }
 
+#paint-one img:hover {
+    max-width: 600px;
+    max-height: 600px
+}
+
 #paint-one p {
     color: white;;
     margin-left: 200px
@@ -125,6 +140,11 @@ li {
     max-height: 500px
 }
 
+#paint-two img:hover {
+    max-width: 600px;
+    max-height: 600px
+}
+
 #paint-two p {
     color: white;
     margin-left: 140px;
@@ -134,7 +154,12 @@ li {
     margin-left: 50px;
     margin-right: 10px;
     max-width: 500px;
-    max-height: 500px
+    max-height: 500px;
+}
+
+#pro-signs img:hover {
+    max-width: 600px;
+    max-height: 600px;
 }
 
 #pro-signs p {
