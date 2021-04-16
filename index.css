@@ -1038,9 +1038,8 @@ abbr {
 
     @media screen and (orientation: portrait)  {
     .hidden-mobile .about-mobile .mobile-header img {
-        width: 100%;
-        padding-right: 15%;
-        margin-left: 20px;
+        width: 97%;
+        margin-right: 3%;
     }
   }
 }
