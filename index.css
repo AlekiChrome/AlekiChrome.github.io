@@ -13,7 +13,7 @@ body {
     background: url("images/Brown-background.jpeg") no-repeat center fixed;
     background-size: cover;
     min-height:100vh;
-    font-family: 'Jost', 'Audiowide', cursive;
+    font-family: 'Jost', 'Karantina', cursive;
     cursor: 'new kursor';
 }
 
@@ -92,7 +92,7 @@ hr {
     color: rgb(255,191,2);
     text-decoration: overline;
     font-weight: bold;
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
 }
 
 .nav-toggle {
@@ -112,7 +112,7 @@ hr {
 
 .header-nav li a:hover {
     color: rgb(216, 205, 194);
-    font-family: 'vonique92', serif;
+    font-family: 'vonique92', 'Karantina', serif;
     display: inline;
     text-decoration: none;
     background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #30e8bf, #ff8235);
@@ -195,7 +195,7 @@ hr {
     color: rgb(255,191,2);
     font-weight: bold;
     font-size: 3em;
-    font-family: 'vonique92', serif;
+    font-family: 'vonique92', 'Karantina', serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -204,7 +204,7 @@ hr {
 
 .intro h2 {
     font-size: 2em;
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -224,13 +224,13 @@ hr {
 }
 
 .about h1 {
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     font-size: 1em;
     color: white;
 }
 
 .about h2 {
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     font-size: 5em;
     color: white;
 }
@@ -399,7 +399,7 @@ hr {
 /* Skills / Technologies */
 
 #skillsheader {
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     font-size: 5em;
     color: white;
     text-align: center;
@@ -507,7 +507,7 @@ abbr {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     font-size: 5em;
     color: white;
  }
@@ -586,7 +586,7 @@ abbr {
      position: relative;
      display: inline-block;
      text-decoration: overline;
-     font-family: 'vonique92', serif;
+     font-family: 'vonique92', 'Karantina', serif;
      padding: 8px 20px;
      margin-top: 15px;
      color: rgb(255,191,2);
@@ -594,7 +594,7 @@ abbr {
 
  .sectionTwo .card .content a:hover {
     color: rgb(216, 205, 194);
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     display: inline;
     text-decoration: none;
     background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #30e8bf, #ff8235);
@@ -608,7 +608,7 @@ abbr {
  /* !Design Section */
 
 #designheader {
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     text-align: center;
     color: white;
 }
@@ -617,7 +617,7 @@ abbr {
 
  /* !Contact Section */
  #contactHeader {
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     font-size: 5em;
     color: white;
     text-align: center;
@@ -735,7 +735,7 @@ abbr {
 
 .f-1 .container .contactForm h2 {
     color: #583723;
-    font-family: 'vonique64', serif;
+    font-family: 'vonique64', 'Karantina', serif;
     font-size: 24px;
 }
 
@@ -896,7 +896,7 @@ abbr {
     }
 
     .hidden-mobile .about-mobile .mobile-header h1 {
-        font-family: 'vonique64', serif;
+        font-family: 'vonique64', 'Karantina', serif;
         text-align: center;
         color: white;
     }
