@@ -975,7 +975,7 @@ abbr {
         height: 120px;
     }
 
-    .contact-form-btn {
+    button .contact-form-btn {
         float: left;
         border: 0;
         background: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #30e8bf, #ff8235);
